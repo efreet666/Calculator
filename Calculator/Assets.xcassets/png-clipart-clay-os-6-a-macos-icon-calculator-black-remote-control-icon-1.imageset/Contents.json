@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "png-clipart-clay-os-6-a-macos-icon-calculator-black-remote-control-icon.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
