@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-//buttons outlets
+    //buttons outlets
     @IBOutlet weak var divisionOutlet: UIButton!
     @IBOutlet weak var multipyOutlet: UIButton!
     @IBOutlet weak var minusOutlet: UIButton!
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
             counter -= 1
         }
         
-        if secondOperand == 0 {
+        if secondOperand == 0 { //деление на ноль
             numberString = ""
             sumOutlet.text = "Error!"
             divisionOutlet.backgroundColor = .systemOrange
